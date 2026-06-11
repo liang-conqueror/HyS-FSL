@@ -1,4 +1,9 @@
-# SpikeFSL
-The open-source code repository for our paper titled 《SpikeFSL: Spike-Driven Few-Shot Learning for Cross-Domain Hyperspectral Image Classification》 will be made publicly available in this repository once the paper is officially published.
-<img width="4868" height="3010" alt="HyS-FSL" src="https://github.com/user-attachments/assets/daa0c9e1-3a27-4d96-8b99-8b82555c4c63" />
+# SpikeFSL: Spike-Driven Few-Shot Learning for Cross-Domain Hyperspectral Image Classification
+# Abstract
+Few-shot learning (FSL) has become an effective paradigm for cross-domain hyperspectral image (HSI) classification. However, most existing FSL methods are based on artificial neural networks (ANNs), which tend to learn domain-specific statistical representations, thereby exhibiting limited cross-domain generalization and high computational costs that restrict their applicability on resource-constrained platforms. To address these limitations, we leverage the sparse, event-driven properties of spiking neural networks (SNNs) and propose a Spike-Driven Few-Shot Learning (SpikeFSL) framework for cross-domain hyperspectral image classification. Specifically, we first introduce a Spectral–Spatial–Temporal Gated Spiking Encoding (SSTGSE) module to transform HSI pixels into SNN-compatible spiking sequences with spike-driven attentional selectivity. And then, we propose a Lightweight Spiking–Convolutional Feature Extraction Network (LSCFEN), which integrates spiking convolution blocks with one-dimensional spectral convolutions for efficient and generalizable feature learning. In addition, we develop an Imitation-to-Focus Prototype Refinement (IFPR) strategy to enhance cross-domain robustness by enabling mutual imitation between the representational strengths of SNNs and ANNs and leveraging the resulting similarity scores to focus on hard negative samples during prototype refinement. Extensive experiments on four benchmark datasets demonstrate that SpikeFSL achieves superior accuracy and substantially lower computational cost compared with state-of-the-art FSL methods. 
 
+<img width="4868" height="3010" alt="SpikeFSL" src="https://github.com/user-attachments/assets/9cf19e00-1386-4598-9032-4e83e2ae9644" />
+
+Paper: **coming soon** 
+
+Code : **coming soon**
